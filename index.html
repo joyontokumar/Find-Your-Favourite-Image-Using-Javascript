@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Image Search Api</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+        .single_image{
+            padding: 20px 10px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.09);
+        }
+        .relative {
+            position: relative;
+        }
+        input#myButton {
+            position: absolute;
+            top: 50%;
+            right: 16px;
+            height: 100%;
+            transform: translateY(-94%);
+        }
+  </style>
+</head>
+
+<body>
+
+  <div class="container mt-5">
+    <h2 style="text-align:center;" class="mb-5">Search Your Favourite Image</h2>
+    <div class="row">
+      <div class="col-md-8 offset-md-2 text-center">
+        <input type="button" id="myButton" class=" mt-3 mb-3 btn btn-primary" value="Search">
+        <input type="text" class="form-control" id="searchImage">
+      </div>
+    </div>
+    <div class="row mt-5" id="output"></div>
+  </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
