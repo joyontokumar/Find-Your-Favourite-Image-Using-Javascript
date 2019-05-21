@@ -4,7 +4,7 @@ var picture = "";
 function mainFun() {
   document.getElementById("myButton").addEventListener("click", loadUrl);
 }
-var perPage = 30;
+var perPage = 40;
 
 function loadUrl() {
   console.log("this is text");
@@ -39,5 +39,5 @@ function ourData() {
                <h6>${item.user.name}</h6>
        </div>`;
   });
-  output.innerHTML = picture;
+  output.innerHTML += picture;
 }
